@@ -14,3 +14,6 @@ VM created (Ubuntu Server 26.04 LTS, Hyper-V). SSH key authentication configured
 
 ## Current status
 VM created (Ubuntu Server 26.04 LTS, Hyper-V). SSH key authentication configured; password login disabled. Static IP set. User permissions verified.
+
+## Current status
+Phase 1 (Foundation & Hardening) complete: SSH key auth, password login disabled, static IP, firewall (UFW) active, fail2ban protecting SSH.
