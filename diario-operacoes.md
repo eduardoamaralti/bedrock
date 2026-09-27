@@ -40,3 +40,13 @@
    - Fix: re-ran it in the correct terminal -- worked immediately
 
 **Result:** SSH access to Bedrock now requires the dedicated key; password login is fully disabled.
+
+
+## 2026-09-27 -- User Permissions & Static IP
+
+**What I did:**
+- Created a second user (`testuser`) without sudo, to verify permission separation
+- Confirmed `testuser` cannot run privileged commands (`sudo apt update` correctly denied)
+- Configured a static IP for the VM via Netplan (`172.30.224.50`), since DHCP was assigning a different IP on every reboot
+
+**Result:** Confirmed sudo/non-sudo permission boundaries work as expected. VM now always reachable at the same IP -- no more hunting for it after every restart.

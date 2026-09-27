@@ -11,3 +11,6 @@ VM created (Ubuntu Server 26.04 LTS, Hyper-V). SSH key authentication still pend
 
 ## Current status
 VM created (Ubuntu Server 26.04 LTS, Hyper-V). SSH key authentication configured; password login disabled.
+
+## Current status
+VM created (Ubuntu Server 26.04 LTS, Hyper-V). SSH key authentication configured; password login disabled. Static IP set. User permissions verified.
